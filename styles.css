@@ -4,11 +4,14 @@
     --header-text-color: #F9FAF8;
     --header-padding: 6vh;
     --grey-text: #E5E7EB;
+    --image-height: 170px;
+    --image-width: 170px;
 
 }
 
 * {
     font-family: 'Inter', sans-serif;
+    font-size: 18px;
 }
 
 body {
@@ -32,10 +35,12 @@ body {
 .header-navbar {
     display: flex;
     justify-content: space-between;
+    padding-top: 10px;
 }
 
 .header-navbar-left-logo {
-    font-size: 24px;
+    font-size: 18px;
+    font-weight: 600;
 }
 .header-navbar-right {
     display: flex;
@@ -68,10 +73,10 @@ body {
 
 .header-welcome-right {
     width: 50%;
-    padding-left: 30px;
+    margin-left: 30px;
     width: 400px;
     height: 250px;
-    background-color: grey;
+    background-color: #6d747d;
 
 }
 
@@ -105,7 +110,7 @@ body {
 .main-info-bar-images {
     margin-top: 20px;
     display: flex;
-    color: var(--grey-text);
+    color: #6d747d;
     font-size: 18px;
 }
 
@@ -115,12 +120,16 @@ body {
     border-radius: 10px;
     margin-left: 10px;
     margin-right: 10px;
-    height: 150px;
+    height: var(--image-height);
+    width: var(--image-width);
 }
 
 .main-info-bar-images-imagetext {
     margin-left: 10px;
     margin-right: 10px;
+    width: var(--image-width);
+    text-align: center;
+    font-size: 16px;
 }
 
 .main-quote-bar {
