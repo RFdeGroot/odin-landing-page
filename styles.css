@@ -74,7 +74,7 @@ body {
 .header-welcome-right {
     width: 50%;
     margin-left: 30px;
-    width: 400px;
+    width: 500px;
     height: 250px;
     background-color: #6d747d;
 
@@ -93,8 +93,8 @@ body {
 }
 
 .main-info-bar {
-    margin-top: 15px;
-    margin-bottom: 10vh;
+    margin-top: 5vh;
+    margin-bottom: 7vh;
     display: flex;
     flex-direction: column;
     text-align: center;
